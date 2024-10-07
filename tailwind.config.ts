@@ -8,9 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        roboto: ["Roboto", "sans-serif"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        bgColor: '#18191a',
+        boxColor: '#242526',
+        btn: '#0866ff',
+        bgLogin: '#f0f2f5',
+        baseColor: '#d12026',
       },
     },
   },
